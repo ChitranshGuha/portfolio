@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# **Chitransh Guha - Software Developer Portfolio**
 
-## Project info
+This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and professional experience. The site is built with modern web technologies to be fast, responsive, and user-friendly.
 
-**URL**: https://lovable.dev/projects/07fc8e2c-f934-4279-8454-25db1a478a18
+**Live Demo:** [**portfolio-chitranshguha.vercel.app**](https://www.google.com/search?q=https://your-live-url.com) `(<- Add your live URL here)`
 
-## How can I edit this code?
+-----
 
-There are several ways of editing your application.
+## **Tech Stack**
 
-**Use Lovable**
+This project was built using the following technologies:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07fc8e2c-f934-4279-8454-25db1a478a18) and start prompting.
+  * **Framework:** [Next.js](https://nextjs.org/) / [React](https://reactjs.org/)
+  * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+  * **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+  * **Contact Form:** [Web3Forms](https://web3forms.com/)
+  * **Deployment:** [Vercel](https://vercel.com/)
 
-Changes made via Lovable will be committed automatically to this repo.
+-----
 
-**Use your preferred IDE**
+## **Features**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+  * **Modern & Responsive Design:** Fully responsive layout that looks great on all devices, from mobile phones to desktops.
+  * **About Me:** A dedicated section detailing my background, education, and professional journey.
+  * **Skills Showcase:** An organized display of my technical skills and areas of expertise.
+  * **Project Portfolio:** A curated gallery of my most significant projects with links to their respective GitHub repositories.
+  * **Functional Contact Form:** A secure contact form that delivers messages directly to my email using the Web3Forms service, ensuring reliable communication.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+-----
 
-Follow these steps:
+## **Local Setup and Installation**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To run this project on your local machine, follow these steps:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1.  **Clone the repository:**
 
-# Step 3: Install the necessary dependencies.
-npm i
+    ```bash
+    git clone https://github.com/ChitranshGuha/portfolio.git
+    cd portfolio
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2.  **Install dependencies:**
 
-**Edit a file directly in GitHub**
+    ```bash
+    npm install
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3.  **Set up environment variables:**
+    Create a new file named `.env.local` in the root of your project and add your Web3Forms access key:
 
-**Use GitHub Codespaces**
+    ```
+    NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY="YOUR_WEB3FORMS_ACCESS_KEY"
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+    *Note: You will need to update the `Contact.js` component to read this environment variable instead of hardcoding the key.*
 
-## What technologies are used for this project?
+4.  **Run the development server:**
 
-This project is built with:
+    ```bash
+    npm run dev
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your browser to see the result.
 
-## How can I deploy this project?
+-----
 
-Simply open [Lovable](https://lovable.dev/projects/07fc8e2c-f934-4279-8454-25db1a478a18) and click on Share -> Publish.
+## **Contact**
 
-## Can I connect a custom domain to my Lovable project?
+Feel free to connect with me through any of the following platforms:
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+  * **LinkedIn:** [linkedin.com/in/chitransh-guha](https://linkedin.com/in/chitransh-guha)
+  * **GitHub:** [@ChitranshGuha](https://github.com/ChitranshGuha)
+  * **Email:** [chitranshguha@gmail.com](mailto:chitranshguha@gmail.com)
