@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and professional experience. The site is built with modern web technologies to be fast, responsive, and user-friendly.
 
-**Live Demo:** [**portfolio-chitranshguha.vercel.app**](https://www.google.com/search?q=https://your-live-url.com) `(<- Add your live URL here)`
+**Live Demo:** [**portfolio-chitranshguha.vercel.app**](https://portfolio-1bqagusda-chitransh-guhas-projects.vercel.app/) 
 
 -----
 
