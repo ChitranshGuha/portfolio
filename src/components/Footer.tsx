@@ -21,7 +21,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/chitransh-guha"
+              href="https://github.com/ChitranshGuha"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-primary transition-colors duration-200"
