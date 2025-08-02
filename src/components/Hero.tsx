@@ -13,7 +13,6 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-hero-gradient px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Text Content */}
           <div className="text-center lg:text-left space-y-6">
             <h1 className="text-5xl lg:text-6xl font-heading font-bold text-text-primary">
               Chitransh Guha
@@ -24,10 +23,9 @@ const Hero = () => {
             <p className="text-lg text-text-secondary max-w-2xl font-body leading-relaxed">
               Eager to leverage technical expertise in practical settings, contributing to innovative projects that make a meaningful impact.
             </p>
-            
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
               <Button 
-                variant="cta" 
+                variant="cta-outline" 
                 size="lg"
                 onClick={() => scrollToSection('portfolio')}
                 className="text-base"
@@ -42,10 +40,20 @@ const Hero = () => {
               >
                 Get In Touch
               </Button>
+              <a 
+                href="/Chitransh-Guha-Resume.pdf" 
+                download="Chitransh-Guha-Resume.pdf"
+              >
+                <Button 
+                  variant="cta-outline" 
+                  size="lg"
+                  className="text-base w-full"
+                >
+                  Download Resume
+                </Button>
+              </a>
             </div>
           </div>
-
-          {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-hover border-4 border-primary/20">
